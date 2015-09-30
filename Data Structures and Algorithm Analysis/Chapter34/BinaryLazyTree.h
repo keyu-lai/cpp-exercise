@@ -8,7 +8,7 @@ public:
 	BinaryLazyTree(): root(nullptr) {}
 	~BinaryLazyTree() { makeEmpty(); }
 	BinaryLazyTree(const BinaryLazyTree& b);
-	BinaryLazyTree& operator=(const BinaryLazyTree &t);
+	BinaryLazyTree& operator=(const BinaryLazyTree &t);ddd
 	
 	const T& findMin() const;
 	const T& findMax() const;
